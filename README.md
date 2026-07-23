@@ -1,4 +1,4 @@
-# Infinite Books
+# Infinity Books
 
 The purpose of this website is to provide a simple way to browse and search for books by category or topic.
 
