@@ -17,17 +17,24 @@ body.dark{
 }
 
 
-.sidebar{
+.sidebar {
     position: fixed;
-    display:flex;
+    left: 0;
+    top: 0;
+
+    z-index: 1000;
+    background-color: white;
+
+    display: flex;
     flex-direction: column;
-    align-items:center;
-    gap:20px;
-    height:100%;
-    width:75px;
+    align-items: center;
+    gap: 20px;
+
+    height: 100vh;
+    width: 75px;
+
     border-right: 2px solid rgb(237, 232, 232);
 }
-
 .imgs{
     display:flex;
     flex-direction: column;
@@ -235,13 +242,16 @@ img:hover{
         opacity: 1;
     }
 }
-.logo{
+.logo {
     font-size: 100px;
-     background: linear-gradient(black,white);
-     
+    background: linear-gradient(black, white);
+
+    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    animation:logoAnimation 4s ease ;
+    animation: logoAnimation 4s ease;
 }
 .bottom{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
