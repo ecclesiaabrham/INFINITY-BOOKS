@@ -241,7 +241,7 @@ body.dark .menu_box {
     background-color: black;
     color: white;
 }
-}
+
 @keyframes logoAnimation {
     0% {
         transform: scale(0.5);
