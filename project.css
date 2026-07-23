@@ -226,6 +226,20 @@ img:hover{
     width:100vw;
     justify-content: center;
     align-items: center;
+    body.dark .menu_box {
+    background-color: black;
+    color: white;
+}
+
+body.dark .innerMenuBox {
+    border-color: white;
+}
+body.dark p{
+ color: white;
+}
+body.dark .sidebar{
+    background-color:black ;
+}
 }
 @keyframes logoAnimation {
     0% {
