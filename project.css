@@ -220,25 +220,26 @@ img:hover{
     cursor: pointer;
 }
 
-.preloader{
+.preloader {
     display: flex;
     height: 100vh;
-    width:100vw;
+    width: 100vw;
     justify-content: center;
     align-items: center;
-    body.dark .menu_box {
+}
+
+body.dark {
     background-color: black;
     color: white;
 }
 
-body.dark .innerMenuBox {
-    border-color: white;
+body.dark .sidebar {
+    background-color: black;
 }
-body.dark p{
- color: white;
-}
-body.dark .sidebar{
-    background-color:black ;
+
+body.dark .menu_box {
+    background-color: black;
+    color: white;
 }
 }
 @keyframes logoAnimation {
