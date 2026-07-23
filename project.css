@@ -35,6 +35,7 @@ body.dark{
 
     border-right: 2px solid rgb(237, 232, 232);
 }
+
 .imgs{
     display:flex;
     flex-direction: column;
@@ -295,6 +296,20 @@ img:hover{
     width:100%;
     border: 2px solid black;
     
+}
+body.dark .menu_box {
+    background-color: black;
+    color: white;
+}
+
+body.dark .innerMenuBox {
+    border-color: white;
+}
+body.dark p{
+ color: white;
+}
+body.dark .sidebar{
+    background-color:black ;
 }
 .searchHistory {
     max-height: 300px;
